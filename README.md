@@ -1,1 +1,6 @@
-# Covid19_DataVisualizer
+COVID-19 Data Visualizer is a Python-based data analysis and visualization project designed to track the progression of the COVID-19 pandemic for a specific country. Using powerful libraries like Pandas for data manipulation and Matplotlib for plotting, this project reads historical COVID-19 data from a CSV file and generates meaningful visual insights to help users understand how the virus has spread over time.
+
+The project begins by loading the dataset and filtering it based on the selected country (e.g., USA). It then converts the date column into a proper datetime format to enable accurate time-series analysis. Two critical metrics—daily confirmed cases and reported deaths—are extracted and plotted over time on the same graph. The resulting line chart provides a clear comparison between the rise in cases and fatalities, helping to reveal patterns, peaks, and key moments in the country's pandemic timeline.
+
+The final visualization is saved as a PNG image (covid_trend.png) and can be used for presentations, reports, or further data analysis. This project is ideal for learners, analysts, or researchers interested in understanding real-world data through visualization, and it can be easily extended to support multiple countries, additional metrics (like recoveries or vaccinations), or even real-time data sources via APIs.
+
